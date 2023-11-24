@@ -7,3 +7,9 @@ void main() {
     expect(result, expectedValue);
   });
 }
+
+mixin expectedValue {}
+
+class UtilityFunction {
+  static someFunction() {}
+}
